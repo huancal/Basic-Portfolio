@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(214, 212, 212);
+}
+
+nav {
+    height: 10vh;
+    background-color: white;
+    display: table;
+    width: 100%;
+}
+
+a {
+    float: right;
+    padding-right: 20px;
+}
+
+.nav-link {
+    display: table-cell;
+    text-decoration: none;
+    font-family: 'Muli', sans-serif;
+    color: grey;
+    margin: 0 auto;
+
+}
+
+.name {
+
+    font-family: 'Muli', sans-serif;
+    padding-left: 350px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24pt;
+
+}
+
+.container {
+    position: absolute;
+    background-color: #ecf0f1;
+    height: 500px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    float: left;
+}
+
+main {
+    height: 80vh;
+}
+
+footer {
+    background-color: rgb(150, 146, 146);
+    height: 10vh;
+}
