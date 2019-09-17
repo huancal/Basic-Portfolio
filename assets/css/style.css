@@ -9,38 +9,53 @@ body {
     background-repeat: no-repeat;
 }
 
+
+
 nav {
-    background-color: #34495ea1;
+    background-color: white;
     display: table;
     width: 100%;
 }
+
+.empty-box {
+    background-color: white;
+    color: white;
+    padding-left: 65px;
+}
+
 
 .nav-link-container {
     display: table;
     float: right;
     height: 10vh;
     margin-right: 120px;
+    padding-right: 120px;
+
 }
 
 .nav-link {
     display: table-cell;
     vertical-align: middle;
     text-decoration: none;
-    color: white;
-    padding-right: 40px;
+    color: grey;
+    padding-right: 35px;
+    font-size: 10pt;
 }
 
 .nav-link:not(:last-child) {
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .name {
     color: white;
     display: table-cell;
     vertical-align: middle;
-    padding-left: 155px;
-
+    background-color: #1abc9c;
+    margin: 50px;
+    text-align: center;
 }
+
+
 
 .name,
 .nav-link {
@@ -51,12 +66,12 @@ nav {
     position: absolute;
     height: 500px;
     width: 900px;
-    border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: white;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
+
+
 }
 
 .card-header {
@@ -65,22 +80,20 @@ nav {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: #34495e;
+    background-color: white;
 }
 
 .card-header-text {
     display: table-cell;
-    color: white;
+    color: #1abc9c;
     vertical-align: middle;
     padding-left: 40px
 }
 
 .card-text {
-    padding: 50px;
-    float: left;
+    padding: 10px;
+
 }
-
-
 
 .centered {
     text-align: center;
@@ -89,15 +102,16 @@ nav {
 main {
     height: 80vh;
     position: relative;
+    background-color: #ecf0f1;
 }
 
 footer {
     height: 10vh;
-    background-color: #476380a1;
+    background-color: #7f8c8d;
 }
 
 h3 {
-    background-color: rgb(63, 99, 63);
+    background-color: #1abc9c;
     height: 2vh;
 }
 
