@@ -7,6 +7,9 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-style: solid;
+    border-color: #00b894;
+    border-width: 2px;
 }
 
 
@@ -15,12 +18,15 @@ nav {
     background-color: white;
     display: table;
     width: 100%;
+    border-bottom: solid;
+    border-color: #a4b0be;
+    border-width: 2px;
 }
 
 .empty-box {
     background-color: white;
     color: white;
-    padding-left: 65px;
+    padding-left: 60px;
 }
 
 
@@ -70,8 +76,9 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
+    border-style: solid;
+    border-color: #a4b0be;
+    border-width: 1px;
 }
 
 .card-header {
@@ -93,16 +100,14 @@ nav {
 .card-text {
     padding: 10px;
 
+
 }
 
-.centered {
-    text-align: center;
-}
 
 main {
     height: 80vh;
     position: relative;
-    background-color: #ecf0f1;
+    background-color: #f1f2f6;
 }
 
 footer {
