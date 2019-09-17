@@ -27,6 +27,7 @@ nav {
     vertical-align: middle;
     text-decoration: none;
     color: white;
+    padding-right: 40px;
 }
 
 .nav-link:not(:last-child) {
@@ -37,7 +38,8 @@ nav {
     color: white;
     display: table-cell;
     vertical-align: middle;
-    padding-left: 120px;
+    padding-left: 155px;
+
 }
 
 .name,
@@ -48,7 +50,7 @@ nav {
 .container {
     position: absolute;
     height: 500px;
-    width: 600px;
+    width: 900px;
     border-radius: 10px;
     background-color: antiquewhite;
     top: 50%;
@@ -70,16 +72,15 @@ nav {
     display: table-cell;
     color: white;
     vertical-align: middle;
-
+    padding-left: 40px
 }
 
 .card-text {
-    padding: 15px;
+    padding: 50px;
+    float: left;
 }
 
-.red-text {
-    color: red;
-}
+
 
 .centered {
     text-align: center;
