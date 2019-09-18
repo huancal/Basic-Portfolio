@@ -88,10 +88,12 @@ nav {
     height: 25%;
     display: table;
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom: solid;
+    border-width: 1pt;
+    border-color: #a4b0be;
     background-color: white;
     font-size: 13pt;
+
 }
 
 .card-header-text {
