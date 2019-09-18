@@ -120,6 +120,33 @@ h3 {
 }
 
 
-img {
-    float: left;
+.name-box {
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.email-box {
+    border-style: solid;
+    margin-top: 40px;
+    border-width: 1px;
+
+
+
+}
+
+.message-box {
+    border-style: solid;
+    height: 150px;
+    width: 898px;
+    margin-top: 40px;
+    border-width: 1px;
+}
+
+.submit-box {
+
+    border-style: solid;
+    margin-top: 20px;
+    display: table;
+
 }
