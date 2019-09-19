@@ -85,7 +85,7 @@ nav {
 }
 
 .portfolio-box {
-    height: 25%;
+    height: 12%;
     display: table;
     width: 100%;
     border-top-left-radius: 10px;
@@ -119,7 +119,89 @@ h3 {
     height: 2vh;
 }
 
+h3 {
+    width: 100%;
+    background-color: #00b894;
+    margin-top: 70px;
+}
 
-img {
-    float: left;
+.Hangman-box {
+    border-style: solid;
+    height: 22%;
+    width: 22%;
+    margin-top: 1px;
+    border-width: 0.5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+.textbox1 {
+    text-align: center;
+    color: white;
+    height: 30px;
+}
+
+.Trivia-box {
+    border-style: solid;
+    height: 22%;
+    width: 22%;
+    border-width: 0.5px;
+    float: right;
+    transform: translate(-400px, -112px)
+}
+
+.textbox2 {
+    text-align: center;
+    color: white;
+    height: 30px;
+}
+
+.RPG-box {
+    border-style: solid;
+    height: 22%;
+    width: 22%;
+    margin-top: 40px;
+    border-width: 0.5px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.textbox3 {
+    text-align: center;
+    color: white;
+    height: 30px;
+}
+
+
+.Widgets-box {
+    border-style: solid;
+    height: 22%;
+    width: 22%;
+    border-width: 0.5px;
+    float: right;
+    transform: translate(-400px, -112px)
+}
+
+.textbox4 {
+    text-align: center;
+    color: white;
+    height: 30px;
+}
+
+.Rock-box {
+    border-style: solid;
+    height: 22%;
+    width: 22%;
+    margin-top: 40px;
+    border-width: 0.5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.textbox5 {
+    text-align: center;
+    color: white;
+    height: 30px;
 }
