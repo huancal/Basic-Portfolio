@@ -26,7 +26,7 @@ nav {
 .empty-box {
     background-color: white;
     color: white;
-    padding-left: 68px;
+    padding-left: 85px;
 }
 
 
@@ -107,8 +107,6 @@ nav {
     padding: 10px;
     line-height: 30px;
 
-
-
 }
 
 
@@ -136,8 +134,12 @@ img {
 }
 
 a:nth-child(2) {
-    padding-left: 15px;
-    padding-right: 15px;
-    border-right: 0.1px solid black;
-    border-left: 0.1px solid black;
+    padding-left: 35px;
+    border-left: 0.1px solid #a4b0be;
+}
+
+a:nth-child(3) {
+    padding-left: 35px;
+    border-left: 0.1px solid #a4b0be;
+
 }

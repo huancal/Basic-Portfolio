@@ -26,7 +26,7 @@ nav {
 .empty-box {
     background-color: white;
     color: white;
-    padding-left: 68px;
+    padding-left: 85px;
 }
 
 
@@ -134,7 +134,7 @@ h3 {
 
 .email-box {
     border-style: solid;
-    margin-top: 40px;
+    margin-top: 8px;
     border-width: 1px;
     height: 5vh;
     margin-right: 50px;
@@ -145,9 +145,9 @@ h3 {
 
 .message-box {
     border-style: solid;
-    height: 100px;
+    height: 150px;
     width: 800px;
-    margin-top: 40px;
+    margin-top: 8px;
     border-width: 1px;
     margin-right: 50px;
     margin-left: 50px;
@@ -157,25 +157,59 @@ h3 {
 
 .submit-box {
     border-style: solid;
+    border-width: 2px;
     margin-top: 20px;
     display: table;
     margin-right: 50px;
     margin-left: 50px;
+    background-color: #1abc9c;
+    width: 15%;
+    text-align: center;
+    height: 5vh;
+    text-align: center;
+    color: rgb(85, 83, 83);
+
 
 }
+
+
 
 .floating-name {
     background-color: white;
     margin-right: 50px;
     margin-left: 50px;
+    font-size: 11pt;
+    margin-bottom: 5px;
+    color: #a4b0be;
 }
 
 .floating-email {
     margin-right: 50px;
     margin-left: 50px;
+    font-size: 11pt;
+    margin-top: 5px;
+    color: #a4b0be;
+
+
+
 }
 
 .floating-message {
     margin-right: 50px;
     margin-left: 50px;
+    font-size: 11pt;
+    margin-top: 5px;
+    color: #a4b0be;
+
+}
+
+a:nth-child(2) {
+    padding-left: 35px;
+    border-left: 0.1px solid #a4b0be;
+}
+
+a:nth-child(3) {
+    padding-left: 35px;
+    border-left: 0.1px solid #a4b0be;
+
 }
