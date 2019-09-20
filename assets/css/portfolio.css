@@ -126,7 +126,7 @@ h3 {
 }
 
 .Hangman-box {
-    border-style: solid;
+
     height: 22%;
     width: 22%;
     margin-top: 1px;
@@ -140,10 +140,11 @@ h3 {
     text-align: center;
     color: white;
     height: 30px;
+    transform: translate(-0.1px, -120px)
 }
 
 .Trivia-box {
-    border-style: solid;
+
     height: 22%;
     width: 22%;
     border-width: 0.5px;
@@ -155,10 +156,11 @@ h3 {
     text-align: center;
     color: white;
     height: 30px;
+    transform: translate(-0.1px, -120px)
 }
 
 .RPG-box {
-    border-style: solid;
+
     height: 22%;
     width: 22%;
     margin-top: 40px;
@@ -172,11 +174,12 @@ h3 {
     text-align: center;
     color: white;
     height: 30px;
+    transform: translate(-0.1px, -120px)
 }
 
 
 .Widgets-box {
-    border-style: solid;
+
     height: 22%;
     width: 22%;
     border-width: 0.5px;
@@ -188,10 +191,11 @@ h3 {
     text-align: center;
     color: white;
     height: 30px;
+    transform: translate(-0.1px, -120px)
 }
 
 .Rock-box {
-    border-style: solid;
+
     height: 22%;
     width: 22%;
     margin-top: 40px;
@@ -204,6 +208,7 @@ h3 {
     text-align: center;
     color: white;
     height: 30px;
+    transform: translate(-0.1px, -120px)
 }
 
 a:nth-child(2) {
@@ -215,4 +220,11 @@ a:nth-child(3) {
     padding-left: 35px;
     border-left: 0.1px solid #a4b0be;
 
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
 }
