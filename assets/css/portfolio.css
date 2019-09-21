@@ -26,7 +26,7 @@ nav {
 .empty-box {
     background-color: white;
     color: white;
-    padding-left: 85px;
+    padding-left: 72px;
 }
 
 
@@ -36,6 +36,7 @@ nav {
     height: 10vh;
     margin-right: 120px;
     padding-right: 120px;
+    font-family: 'DM Sans', sans-serif;
 
 }
 
@@ -46,9 +47,17 @@ nav {
     color: grey;
     padding-right: 35px;
     font-size: 8pt;
-    font-family: 'Work Sans', sans-serif;
-
+    font-family: 'DM Sans', sans-serif;
 }
+
+a:hover {
+    transform: translate(-2px, -6px);
+    transition: all 0.15s ease-in;
+    text-shadow: 3px 3px 3px rgb(116, 113, 113);
+}
+
+
+
 
 .nav-link:not(:last-child) {
     padding-right: 50px;
@@ -62,6 +71,7 @@ nav {
     margin: 50px;
     text-align: center;
     font-size: 24pt;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -92,13 +102,15 @@ nav {
     border-top-right-radius: 10px;
     background-color: white;
     font-size: 13pt;
+
 }
 
 .portfolio-box-text {
     display: table-cell;
     color: #1abc9c;
     vertical-align: middle;
-    padding-left: 55px
+    padding-left: 55px;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -133,6 +145,7 @@ h3 {
     border-width: 0.5px;
     margin-right: 50px;
     margin-left: 50px;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -149,7 +162,8 @@ h3 {
     width: 22%;
     border-width: 0.5px;
     float: right;
-    transform: translate(-400px, -112px)
+    transform: translate(-400px, -112px);
+    font-family: 'DM Sans', sans-serif;
 }
 
 .textbox2 {
@@ -167,6 +181,7 @@ h3 {
     border-width: 0.5px;
     margin-right: 50px;
     margin-left: 50px;
+    font-family: 'DM Sans', sans-serif;
 
 }
 
@@ -184,8 +199,14 @@ h3 {
     width: 22%;
     border-width: 0.5px;
     float: right;
-    transform: translate(-400px, -112px)
+    transform: translate(-400px, -112px);
+    font-family: 'DM Sans', sans-serif;
+
 }
+
+
+
+
 
 .textbox4 {
     text-align: center;
@@ -202,6 +223,7 @@ h3 {
     border-width: 0.5px;
     margin-right: 50px;
     margin-left: 50px;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .textbox5 {
@@ -211,16 +233,7 @@ h3 {
     transform: translate(-0.1px, -120px)
 }
 
-a:nth-child(2) {
-    padding-left: 35px;
-    border-left: 0.1px solid #a4b0be;
-}
 
-a:nth-child(3) {
-    padding-left: 35px;
-    border-left: 0.1px solid #a4b0be;
-
-}
 
 img {
     width: 100%;

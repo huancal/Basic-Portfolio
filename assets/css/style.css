@@ -26,7 +26,7 @@ nav {
 .empty-box {
     background-color: white;
     color: white;
-    padding-left: 85px;
+    padding-left: 72px;
 }
 
 
@@ -39,6 +39,8 @@ nav {
 
 }
 
+
+
 .nav-link {
     display: table-cell;
     vertical-align: middle;
@@ -46,9 +48,19 @@ nav {
     color: grey;
     padding-right: 35px;
     font-size: 8pt;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+
 
 }
+
+a:hover {
+    transform: translate(-2px, -6px);
+    transition: all 0.15s ease-in;
+    text-shadow: 3px 3px 3px rgb(116, 113, 113);
+}
+
+
+
 
 .nav-link:not(:last-child) {
     padding-right: 50px;
@@ -62,6 +74,7 @@ nav {
     margin: 50px;
     text-align: center;
     font-size: 24pt;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -93,6 +106,7 @@ nav {
     border-color: #a4b0be;
     background-color: white;
     font-size: 13pt;
+    font-family: 'DM Sans', sans-serif;
 
 }
 
@@ -104,9 +118,12 @@ nav {
 }
 
 .card-text {
-    padding: 10px;
-    line-height: 30px;
 
+    line-height: 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12pt;
+    margin: 5px;
+    text-indent: 30px;
 }
 
 
@@ -131,15 +148,4 @@ img {
     float: left;
     border-style: solid;
     border-width: 1px;
-}
-
-a:nth-child(2) {
-    padding-left: 35px;
-    border-left: 0.1px solid #a4b0be;
-}
-
-a:nth-child(3) {
-    padding-left: 35px;
-    border-left: 0.1px solid #a4b0be;
-
 }
