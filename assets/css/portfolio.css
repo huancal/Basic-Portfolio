@@ -152,8 +152,8 @@ h3 {
 .textbox1 {
     text-align: center;
     color: white;
-    height: 30px;
-    transform: translate(-0.1px, -120px)
+    height: 25px;
+    transform: translate(-0.1px, -110px)
 }
 
 .Trivia-box {
@@ -169,8 +169,8 @@ h3 {
 .textbox2 {
     text-align: center;
     color: white;
-    height: 30px;
-    transform: translate(-0.1px, -120px)
+    height: 25px;
+    transform: translate(-0.1px, -110px)
 }
 
 .RPG-box {
@@ -188,8 +188,8 @@ h3 {
 .textbox3 {
     text-align: center;
     color: white;
-    height: 30px;
-    transform: translate(-0.1px, -120px)
+    height: 25px;
+    transform: translate(-0.1px, -110px)
 }
 
 
@@ -211,8 +211,8 @@ h3 {
 .textbox4 {
     text-align: center;
     color: white;
-    height: 30px;
-    transform: translate(-0.1px, -120px)
+    height: 25px;
+    transform: translate(-0.1px, -110px)
 }
 
 .Rock-box {
@@ -229,15 +229,14 @@ h3 {
 .textbox5 {
     text-align: center;
     color: white;
-    height: 30px;
-    transform: translate(-0.1px, -120px)
+    height: 25px;
+    transform: translate(-0.1px, -110px)
 }
 
 
 
 img {
     width: 100%;
-    height: auto;
     max-height: 100%;
     max-width: 100%;
 }
